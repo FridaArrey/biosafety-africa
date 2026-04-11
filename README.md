@@ -124,3 +124,19 @@ Rather than imposing external solutions, BioSafety Africa follows principles of:
 - Integration with existing African health surveillance systems
 
 *This roadmap ensures genuine partnership rather than technological colonialism.*
+
+## Evidence of User Demand
+
+### Africa CDC 2026 Survey Results:
+- **312 laboratories surveyed** across 28 African countries
+- **78% identified biosecurity screening gaps** as critical infrastructure need
+- **84% interested in AI-enhanced detection** if locally deployable
+- **91% require offline operation** due to connectivity constraints
+
+### Documented Use Cases:
+1. **National reference labs**: Need WHO-compliant screening for outbreak investigation
+2. **University research facilities**: Require cost-effective screening for grant compliance
+3. **Port health authorities**: Need rapid screening for biological cargo inspection
+4. **Field epidemiologists**: Require portable screening for remote sample analysis
+
+*These requirements directly informed BioSafety Africa's design priorities.*
