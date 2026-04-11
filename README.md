@@ -72,3 +72,10 @@ This diagram details the logic within `firmware_guard.py` and `engine.py`. It sh
 BioSafety Africa is designed to support the regional capacity-building efforts led by **Africa CDC** and the **Regional Centre of Excellence in Biosafety and Biosecurity (RCoEBB)**. 
 
 Following the **Level 1 Biorisk Management** training at the **Institut Pasteur de Dakar (Feb 2026)**, which certified professionals from 15 West African nations, our tool provides the necessary technical substrate for these newly certified experts to implement functional, offline-native screening protocols in their home institutions without the burden of high-compute costs.
+
+---
+
+## 🤖 Guarding the Autonomous Loop
+As of April 2026, AI systems (e.g., GPT-5/Ginkgo Bioworks) are now capable of running tens of thousands of biological experiments autonomously via cloud laboratories. 
+
+BioSafety Africa provides the essential **Hardware-Level Guardrail** for this new era. While AI can design experiments at scale, our **Firmware Guard** ensures that the "Build" phase of the autonomous loop remains subject to stringent, offline-first biosecurity checks, preventing the automated synthesis of hazardous biological agents.
