@@ -79,3 +79,12 @@ Following the **Level 1 Biorisk Management** training at the **Institut Pasteur 
 As of April 2026, AI systems (e.g., GPT-5/Ginkgo Bioworks) are now capable of running tens of thousands of biological experiments autonomously via cloud laboratories. 
 
 BioSafety Africa provides the essential **Hardware-Level Guardrail** for this new era. While AI can design experiments at scale, our **Firmware Guard** ensures that the "Build" phase of the autonomous loop remains subject to stringent, offline-first biosecurity checks, preventing the automated synthesis of hazardous biological agents.
+## African Leadership Council
+- **Dr. Amadou Alpha Sall** (Institut Pasteur de Dakar) - Scientific Advisory
+- **Prof. Salim Abdool Karim** (CAPRISA, South Africa) - Regional Coordinator
+- **Dr. Francine Ntoumi** (Fondation Congolaise, Congo) - Implementation Lead
+
+## Community-Driven Design
+This project emerges from the 2026 Africa CDC Biosafety Summit recommendations, 
+not as an external solution but as a response to priorities identified by African 
+biosafety professionals.
