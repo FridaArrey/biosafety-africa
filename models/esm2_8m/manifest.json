@@ -1,0 +1,13 @@
+{
+  "model_id": "facebook/esm2_t6_8M_UR50D",
+  "download_timestamp_utc": "2026-04-11T08:04:47.843670Z",
+  "files_sha256": {
+    "config.json": "facb9355e8252149f6f99dff5fd1e32e890c3c655362b261d0c81cd6b5839c85",
+    "tokenizer_config.json": "7e9161ecdb548ec45a41cbc6b24aa4476fdd418461f491c4207baa99419a29ad",
+    "special_tokens_map.json": "3aedcd4211c0d43aec4e607ff60a63255f3174ead795e997350f09a5f8cd9ee1",
+    "vocab.txt": "0b82cc0a7c7cf9e567b1e5892d793285b9fbae822c964ca48696f7db44598e03",
+    "model.safetensors": "24c5fa474c48f3b754b86efe752d5f189d2bcd88190fa2270fc92b2ef3034189",
+    "pytorch_model.bin": "9edcf393212f3a26684cd68ca8095ec43c2c341ee0fcc3ba7a4d3a47c5dc138f"
+  },
+  "manifest_sha256": "7a15f2fe6af317ef4382d2872b6d94609a191e246ed31dfbdb52958d530e9078"
+}
