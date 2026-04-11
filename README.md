@@ -65,3 +65,10 @@ This schematic maps the localized Three-Tier strategy. It shows how the ESM-2 8M
 ### Figure 2 (Right): Edison-Bypass (Darwin Assembly) Defeat Protocol
 **Hackathon Track: 1 & 4**
 This diagram details the logic within `firmware_guard.py` and `engine.py`. It shows how your CPU-optimized Functional Embedding Scan (Track 1) and specific Assembly Scar Scan (BsaI/BsmBI) directly intercept and defeat the engineering bypass method (Edison et al. 2026) required for split-order virus assembly on unregulated benchtop synthesizers (Track 4).
+
+---
+
+## 🌍 Real-World Alignment
+BioSafety Africa is designed to support the regional capacity-building efforts led by **Africa CDC** and the **Regional Centre of Excellence in Biosafety and Biosecurity (RCoEBB)**. 
+
+Following the **Level 1 Biorisk Management** training at the **Institut Pasteur de Dakar (Feb 2026)**, which certified professionals from 15 West African nations, our tool provides the necessary technical substrate for these newly certified experts to implement functional, offline-native screening protocols in their home institutions without the burden of high-compute costs.
