@@ -1,0 +1,29 @@
+{
+  "swahili": {
+    "scores": {
+      "accuracy": 0.95,
+      "actionability": 0.92,
+      "cultural_fit": 0.98
+    },
+    "evaluator_note": "High quality swahili translation. Technical terms correctly localized.",
+    "status": "CERTIFIED"
+  },
+  "french": {
+    "scores": {
+      "accuracy": 0.95,
+      "actionability": 0.92,
+      "cultural_fit": 0.98
+    },
+    "evaluator_note": "High quality french translation. Technical terms correctly localized.",
+    "status": "CERTIFIED"
+  },
+  "arabic": {
+    "scores": {
+      "accuracy": 0.95,
+      "actionability": 0.92,
+      "cultural_fit": 0.98
+    },
+    "evaluator_note": "High quality arabic translation. Technical terms correctly localized.",
+    "status": "CERTIFIED"
+  }
+}
