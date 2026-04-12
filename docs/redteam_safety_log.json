@@ -1,0 +1,23 @@
+[
+  {
+    "attempt_type": "Simple Split",
+    "sequence_fragment": "ATGGGTCTCAAAG",
+    "risk_score": 0.2,
+    "outcome": "BYPASS_SUCCESS",
+    "mitigation": "Tiered Escalation"
+  },
+  {
+    "attempt_type": "Enzyme Site Masking",
+    "sequence_fragment": "ACGCTCTTCGCTTG",
+    "risk_score": 0.2,
+    "outcome": "BYPASS_SUCCESS",
+    "mitigation": "Tiered Escalation"
+  },
+  {
+    "attempt_type": "Fragmented Assembly",
+    "sequence_fragment": "GGTCA",
+    "risk_score": 0.0,
+    "outcome": "BYPASS_SUCCESS",
+    "mitigation": "Tiered Escalation"
+  }
+]
