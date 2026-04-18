@@ -156,3 +156,19 @@ Our research identifies and mitigates "Passive Bias" in frontier LLMs. Using the
 * **Dual-Use Risk:** This tool is designed strictly for identification and defense. It does not provide synthesis protocols, media recipes, or weaponization guidance. To prevent misuse, "Scientific Neutrality" identification prompts are strictly decoupled from tactical "Alert" prompts in the system architecture.
 * **Ethical Consideration:** We prioritize **Sovereign Data Ownership**. The system ensures threat hashes are shared for global security while keeping raw, sensitive genomic sequences within local institutional control.
 * **Future Improvements:** Integration of larger ESM models (3B+ parameters) for zero-shot detection of synthetic "dark matter" sequences not found in current databases.
+
+---
+
+## 🛡️ Appendix: Limitations and Dual-Use Considerations
+*This section fulfills the mandatory AIxBio Hackathon safety disclosure requirements.*
+
+### Forensic Verification & Intercept Capabilities
+Our system implements a sequential **hash-chaining protocol** (`deployment/tamper_proof_log.jsonl`) to ensure audit integrity. As evidenced in the logs, the system successfully intercepted and blocked sequences containing **BsaI scars**—a primary indicator of the **Edison-style assembly bypass** used to synthesize Tier 1 pathogens in unregulated environments.
+
+### Technical Limitations
+* **Embedding Constraints:** Model sensitivity is anchored to the **ESM-2 8M** protein language model. While highly efficient for resource-constrained hardware, high-divergence novel pathogens or "cloaked" sequences may require higher-parameter human SME review.
+* **False Negatives:** The current version is optimized for high-specificity detection of known functional motifs; synthetic biological "dark matter" remains an area for future iterative calibration.
+
+### Dual-Use & Misuse Mitigation
+* **Functional Decoupling:** To prevent this tool from being used as a design aid, the "Scientific Neutrality" identification prompts are strictly air-gapped from tactical synthesis or weaponization guidance.
+* **Sovereign Control:** We prioritize **Sovereign Data Ownership**. Threat hashes are shared for collective security, but raw genomic sequences remain under local institutional control to prevent centralized data exploitation.
