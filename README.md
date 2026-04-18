@@ -172,3 +172,23 @@ Our system implements a sequential **hash-chaining protocol** (`deployment/tampe
 ### Dual-Use & Misuse Mitigation
 * **Functional Decoupling:** To prevent this tool from being used as a design aid, the "Scientific Neutrality" identification prompts are strictly air-gapped from tactical synthesis or weaponization guidance.
 * **Sovereign Control:** We prioritize **Sovereign Data Ownership**. Threat hashes are shared for collective security, but raw genomic sequences remain under local institutional control to prevent centralized data exploitation.
+
+---
+
+## 🖥️ Live Command Center
+*BioSafety Africa includes a real-time visual interface for monitoring biosecurity intercepts.*
+
+### **Launch the Dashboard**
+To view the live telemetry, threat analytics, and intercept logs:
+```bash
+# Install UI dependencies
+pip install streamlit pandas
+
+# Start the Command Center
+streamlit run src/dashboard.py                                                                                                                                  #Features
+Real-Time Intercepts: Visual alerts for every sequence blocked by the Firmware Guard.
+
+Threat Intelligence: Automated breakdown of pathogen families detected.
+
+Audit Transparency: Direct view of the tamper-proof jsonl hash-chain logs.
+
