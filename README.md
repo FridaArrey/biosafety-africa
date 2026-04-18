@@ -140,3 +140,19 @@ Rather than imposing external solutions, BioSafety Africa follows principles of:
 4. **Field epidemiologists**: Require portable screening for remote sample analysis
 
 *These requirements directly informed BioSafety Africa's design priorities.*
+
+---
+
+## 🛡️ Appendix: Model Performance & Safety
+*This section addresses Dimension 2 (Execution Quality) and the "Limitations and Dual-Use" submission requirements.*
+
+### Model Performance & Calibration Summary
+Our research identifies and mitigates "Passive Bias" in frontier LLMs. Using the **Inspect AI** framework, we moved the model from a 0% baseline to 100% forensic accuracy for Tier 1 Select Agents (Ricin, Anthrax, Botulinum) by implementing a Four-Pillar Governance protocol.
+
+> **Full Governance Report:** [docs/calibration_history.md](docs/calibration_history.md)
+
+### Limitations & Dual-Use Considerations
+* **False Negatives:** Model sensitivity is limited by the quality of the ESM-2 8M embeddings; high-divergence novel pathogens or heavily "cloaked" sequences may require human SME review.
+* **Dual-Use Risk:** This tool is designed strictly for identification and defense. It does not provide synthesis protocols, media recipes, or weaponization guidance. To prevent misuse, "Scientific Neutrality" identification prompts are strictly decoupled from tactical "Alert" prompts in the system architecture.
+* **Ethical Consideration:** We prioritize **Sovereign Data Ownership**. The system ensures threat hashes are shared for global security while keeping raw, sensitive genomic sequences within local institutional control.
+* **Future Improvements:** Integration of larger ESM models (3B+ parameters) for zero-shot detection of synthetic "dark matter" sequences not found in current databases.
